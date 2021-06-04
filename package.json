@@ -2,10 +2,10 @@
   "name": "gateway",
   "version": "1.0.0",
   "description": "",
-  "main": "getHash.js",
+  "main": "index_2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon getHash.js"
+    "start": "nodemon index_2.js"
   },
   "author": "",
   "license": "ISC",
