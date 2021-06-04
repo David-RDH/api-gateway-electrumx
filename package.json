@@ -1,0 +1,23 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getHash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon getHash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitgo-utxo-lib": "^1.8.0",
+    "body-parser": "^1.19.0",
+    "ddos": "^0.2.1",
+    "electrum-client": "^0.0.6",
+    "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "nodemon": "^2.0.7",
+    "qs": "^6.10.1",
+    "tls": "^0.0.1"
+  }
+}
