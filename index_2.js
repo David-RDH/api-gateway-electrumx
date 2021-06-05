@@ -180,6 +180,7 @@ app.use(function (req, res, next) {
       } catch (e) {
         ecl.close();
         res.write("Error: " + e.message)
+        console.log(e);
         res.end()
       }
     };
